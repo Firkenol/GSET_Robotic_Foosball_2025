@@ -204,11 +204,11 @@ void loop() {
         // Assign specific angles based on whether scoring or passing
         if (i == 0 || i == 1) {
             // Scoring kick (aggressive)
-            kickAngle1 = -60;  // Wind up
-            kickAngle2 = 10;   // Strike forward
+            kickAngle1 = -15;  // Wind up
+            kickAngle2 = 15;   // Strike forward
         } else {
             // Passing motion (gentler)
-            kickAngle1 = -15;  // Light pull back
+            kickAngle1 = -10;  // Light pull back
             kickAngle2 = 5;    // Light push
         }
 
